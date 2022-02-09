@@ -32,14 +32,43 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link disabled">A propos</a>
-                </li>                
+                </li>
+                <li>
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Clique ici pour les détails</a>
+                </li>                        
                 </ul>
                 <form>
                 <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                
                 </form>
             </div>
             </div>
         </nav>
+
+        
+    
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offres</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+    <div>
+        Personnalisez votre offre de voyages avec plusieurs choix disponibles
+    </div>
+    <div class="dropdown mt-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown">
+        Choisir
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <li><a class="dropdown-item" href="#">Avion + hôtel ***</a></li>
+        <li><a class="dropdown-item" href="#">Avion + hôtel *** + Excursions</a></li>
+        <li><a class="dropdown-item" href="#">Avion + hôtel **** + Excursions + Services extra-offerts*</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -73,7 +102,7 @@
 
         <main>
       
-            <h1 class="display-4 text-center my-5 bg bg-danger">MonProjetGit</h1>
+            <h1 class="display-4 text-center my-5 text-danger bg bg-light">MonProjetGit</h1>
 
             <div class="container">
 
