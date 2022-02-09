@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>MonProjetGit</title>
+    <title>News</title>
   </head>
   <body>
       <header>
@@ -62,11 +62,9 @@
         Choisir
         </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-
-        <li><a class="dropdown-item" href="#">Avion + hôtel ***</a></li>
-        <li><a class="dropdown-item" href="#">Avion + hôtel *** + Excursions</a></li>
-        <li><a class="dropdown-item" href="#">Avion + hôtel **** + Excursions + Services extra offerts*</a></li>
-
+        <li><a class="dropdown-item" href="#">Avion / hôtel***</a></li>
+        <li><a class="dropdown-item" href="#">Avion / hôtel*** / Excursions</a></li>
+        <li><a class="dropdown-item" href="#">Avion / hôtel**** / Excursions +Services extra offerts*</a></li>
         </ul>
     </div>
     </div>
@@ -102,20 +100,42 @@
 
       </header>
 
-        <main>
+        <main class="d-flex justify-content-center align-items-center">
       
-            <h1 class="display-4 text-center my-5 text-danger bg bg-light">MonProjetGit</h1>
-
-            <div class="container">
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus obcaecati incidunt at nihil voluptatibus quia ea! Eos cumque perspiciatis neque obcaecati expedita atque officia illo natus dolorum, nesciunt, nulla iusto, culpa quis laborum voluptatem aspernatur adipisci enim. Consequatur porro consectetur ut eveniet, hic itaque numquam amet fuga, aspernatur ipsam quaerat mollitia totam magni in at aliquam, est eligendi illum ab. Sint fugit nostrum facere inventore nulla, labore at illum quod atque maiores ut tempora eaque ea laborum dolorem, odit aliquam veritatis repellendus molestias sequi pariatur natus, ullam explicabo cum. Sunt, pariatur! Accusamus, aut repudiandae dolorem dolorum est pariatur totam ea?</p>
-
-
+            
+            <div class="spinner-grow text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
             </div>
+        <div class="spinner-grow text-secondary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        <div class="spinner-grow text-success" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        <div class="spinner-grow text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        <div class="spinner-grow text-warning" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        <div class="spinner-grow text-info" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        <div class="spinner-grow text-light" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        <div class="spinner-grow text-dark" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+
+
+        
+
+
 
         </main>
 
-        <footer class="bg-dark text-center text-white py-3 fixed-bottom">
+        <footer class="bg-dark text-center text-white py-3 fixed-bottom ">
             &copy; 2022 - TM - MonProjetGit - Tous droits réservés
         </footer>
     
