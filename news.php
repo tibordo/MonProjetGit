@@ -64,7 +64,7 @@
         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
         <li><a class="dropdown-item" href="#">Avion / hôtel***</a></li>
         <li><a class="dropdown-item" href="#">Avion / hôtel*** / Excursions</a></li>
-        <li><a class="dropdown-item" href="#">Avion / hôtel**** / Excursions +Services extra offerts*</a></li>
+        <li><a class="dropdown-item" href="#">Avion / hôtel**** / Excursions / Services extra offerts*</a></li>
         </ul>
     </div>
     </div>
