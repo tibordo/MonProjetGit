@@ -40,13 +40,57 @@
             </div>
             </div>
         </nav>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="../Projet_Git_TM/img/Paysage1.jpg" class="d-block w-100" alt="paysage1">
+                </div>
+                <div class="carousel-item">
+                <img src="../Projet_Git_TM/img/Paysage2.jpg" class="d-block w-100" alt="paysage2">
+                </div>
+                <div class="carousel-item">
+                <img src="../Projet_Git_TM/img/Paysage3.jpg" class="d-block w-100" alt="paysage3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+
       </header>
 
-      <h1 class="display-4 text-center my-5 bg bg-danger">MonProjetGit</h1>
+        <main>
+      
+            <h1 class="display-4 text-center my-5 bg bg-danger">MonProjetGit</h1>
+
+            <div class="container">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus obcaecati incidunt at nihil voluptatibus quia ea! Eos cumque perspiciatis neque obcaecati expedita atque officia illo natus dolorum, nesciunt, nulla iusto, culpa quis laborum voluptatem aspernatur adipisci enim. Consequatur porro consectetur ut eveniet, hic itaque numquam amet fuga, aspernatur ipsam quaerat mollitia totam magni in at aliquam, est eligendi illum ab. Sint fugit nostrum facere inventore nulla, labore at illum quod atque maiores ut tempora eaque ea laborum dolorem, odit aliquam veritatis repellendus molestias sequi pariatur natus, ullam explicabo cum. Sunt, pariatur! Accusamus, aut repudiandae dolorem dolorum est pariatur totam ea?</p>
+
+
+            </div>
+
+        </main>
+
+        <footer class="bg-dark text-center text-white py-3">
+            &copy; 2022 - TM - MonProjetGit - Tous droits réservés
+        </footer>
     
   
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
